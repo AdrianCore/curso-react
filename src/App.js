@@ -31,13 +31,10 @@ function App() {
         >
           Aprende más de React
         </a>
-        
-      </header>
-
-      <section>
+        <section>
           <MiComponente />
         </section>
-
+      </header>
     </div>
   );
 }
