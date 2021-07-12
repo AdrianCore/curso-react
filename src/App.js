@@ -1,5 +1,6 @@
 import logo from './assets/images/logo.svg';
 import './assets/css/App.css';
+import MiComponente from './components/MiComponente';
 
 
 function HolaMundo(nombre, edad){
@@ -30,7 +31,13 @@ function App() {
         >
           Aprende más de React
         </a>
+        
       </header>
+
+      <section>
+          <MiComponente />
+        </section>
+
     </div>
   );
 }
