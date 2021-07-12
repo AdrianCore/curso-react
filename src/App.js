@@ -1,21 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+function HolaMundo(nombre, edad){
+  var presentacion = <div>
+  <h2>Hola, soy {nombre}</h2>
+  <h3>Y tengo {edad} años</h3>
+  </div>
+  return presentacion;
+}
+
+
 function App() {
+  var nombre = "Adrian García";
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Aquí podemos poner el texto que queramos.
         </p>
+        {HolaMundo(nombre, 27)}
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprende más de React
         </a>
       </header>
     </div>
